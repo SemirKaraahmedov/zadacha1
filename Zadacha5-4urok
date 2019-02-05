@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zadacha5_4urok
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string first = Console.ReadLine();
+            string second = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            char gender = char.Parse(Console.ReadLine());
+            long EGN = long.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"First name: {first}");
+            Console.WriteLine($"Last name: {second}");
+            Console.WriteLine($"Age: {age}");
+            Console.WriteLine($"Gender: {gender}");
+            Console.WriteLine($"Personal ID: {EGN}");
+            Console.WriteLine($"Unique Employee number: {k}");
+        }
+    }
+}
