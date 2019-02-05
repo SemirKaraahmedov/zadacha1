@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zadacha3_3urok_2_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string smth = Console.ReadLine();
+            bool y = Convert.ToBoolean(smth);
+            if (y == true)
+            {
+                Console.WriteLine("Yes");
+            }
+            else if (y == false)
+            {
+                Console.WriteLine("No");
+            }
+        }
+    }
+}
