@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Zadacha2_4urok
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = Console.ReadLine();
+            char n1 = char.Parse(Console.ReadLine());
+            char n2 = char.Parse(Console.ReadLine());
+            char n3 = char.Parse(Console.ReadLine());
+            string sentence = Console.ReadLine();
+
+            Console.WriteLine($"{name}");
+            Console.WriteLine($"{n1}");
+            Console.WriteLine($"{n2}");
+            Console.WriteLine($"{n3}");
+            Console.WriteLine($"{sentence}");
+        }
+    }
+}
