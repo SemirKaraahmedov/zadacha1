@@ -1,0 +1,26 @@
+using System;
+using System.Linq;
+
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Console.WriteLine(Console.ReadLine().Split(' ').Select(int.Parse).ToArray().Min());
+            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            int panichka = numbers[0];
+            int len = numbers.Length;
+           
+            for (int i = 1; i < len; i++)
+            {
+                  panichka = panichka+numbers[i];
+                 
+
+            }
+            Console.WriteLine(panichka/len);
+            
+        }
+    }
+}
